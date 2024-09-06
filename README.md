@@ -9,5 +9,3 @@ Used:-
     6. Discovery Service
     7. Fault Tolerance - CircuitBreaker
     8. resilince4j
-    
-
