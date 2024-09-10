@@ -9,4 +9,4 @@ Used:-
     5. API Gateway
     6. Discovery Service
     7. Fault Tolerance using Resilience4j
-    8. Resilience4j - CircuitBreaker
+    8. Resilience4j - CircuitBreaker, Retry, RateLimiter
