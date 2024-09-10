@@ -43,3 +43,16 @@ resilience4j:
         failureRateThreshold: 50
         eventConsumerBufferSize: 10
         slidingWindowType: COUNT_BASED
+
+  retry:
+    instances:
+      ratingHotelService:
+        maxAttempts: 3
+        waitDuration: 2s
+
+  ratelimiter:
+    instances:
+      userRateLimiter:
+        timeout-duration: 0s
+        limit-refresh-period: 4s
+        limit-for-period: 2
